@@ -31,50 +31,50 @@ function App() {
       {/* Navigation Bar */}
       <nav className="nav-bar">
         <div className="container">
-          <a 
-            href="#home" 
+          <a
+            href="#home"
             className={activeTab === 'home' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('home'); }}
           >
             Home
           </a>
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             className={activeTab === 'contact' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('contact'); }}
           >
             Contact Us
           </a>
-          <a 
-            href="#residential" 
+          <a
+            href="#residential"
             className={activeTab === 'residential' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('residential'); }}
           >
             Residential
           </a>
-          <a 
-            href="#commercial" 
+          <a
+            href="#commercial"
             className={activeTab === 'commercial' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('commercial'); }}
           >
             Commercial
           </a>
-          <a 
-            href="#cabinetry" 
+          <a
+            href="#cabinetry"
             className={activeTab === 'cabinetry' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('cabinetry'); }}
           >
             Cabinetry
           </a>
-          <a 
-            href="#residential-photos" 
+          <a
+            href="#residential-photos"
             className={activeTab === 'residential-photos' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('residential-photos'); }}
           >
             Residential Photos
           </a>
-          <a 
-            href="#commercial-photos" 
+          <a
+            href="#commercial-photos"
             className={activeTab === 'commercial-photos' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('commercial-photos'); }}
           >
@@ -110,32 +110,32 @@ function App() {
           <div className="container">
             <div className="content-text">
               <p>
-                Larena Construction, LLC has been serving the residential and commercial 
-                communities for over 25 years. We are headquartered in Livingston, New Jersey and 
+                Larena Construction, LLC has been serving the residential and commercial
+                communities for over 25 years. We are headquartered in Livingston, New Jersey and
                 serve most areas of New Jersey.
               </p>
-              
+
               <p>
-                We specialize in project management, home renovations, damage restoration and 
-                custom building. We can handle any and every phase of your remodel or addition 
+                We specialize in project management, home renovations, damage restoration and
+                custom building. We can handle any and every phase of your remodel or addition
                 whether it be to your home or business.
               </p>
-              
+
               <p>
-                We provide all of the services necessary to make your vision become reality. 
-                Remodeling a home can be a multifaceted task and it is often necessary for us 
-                to hire subcontractors. You can rest easy knowing that we will select the right 
-                contractors for your job. We have been in business for over 25 years and many 
-                of the sub-contractors we work with have been working with us since we started 
+                We provide all of the services necessary to make your vision become reality.
+                Remodeling a home can be a multifaceted task and it is often necessary for us
+                to hire subcontractors. You can rest easy knowing that we will select the right
+                contractors for your job. We have been in business for over 25 years and many
+                of the sub-contractors we work with have been working with us since we started
                 and all share the same work ethic we do.
               </p>
-              
+
               <p>
-                At our Livingston, New Jersey location we also host a full service custom 
+                At our Livingston, New Jersey location we also host a full service custom
                 cabinetry shop where we are able to fabricate beautiful custom cabinetry.
               </p>
             </div>
-            
+
             <div className="accreditation">
               <p>Accredited by the BBB</p>
             </div>
@@ -148,20 +148,20 @@ function App() {
           <div className="container">
             <div className="content-text">
               <h2 className="page-title">Contact Us</h2>
-              
+
               <p>
-                For more information or questions about our products & services, or to schedule 
+                For more information or questions about our products & services, or to schedule
                 an estimate please contact us:
               </p>
-              
+
               <div className="contact-info">
                 <p><strong>Phone:</strong> (973) 422-9000</p>
                 <p><strong>Fax:</strong> (973) 422-9026</p>
-                
+
                 <p className="contact-section-title">Larena Construction, LLC</p>
                 <p>88 Naylon Avenue</p>
                 <p>Livingston, New Jersey 07039</p>
-                
+
                 <p className="contact-section-title">Email:</p>
                 <p>
                   <a href="mailto:Paul@larenaconstruction.com">Paul@larenaconstruction.com</a> or{' '}
@@ -178,33 +178,33 @@ function App() {
           <div className="container">
             <div className="content-text">
               <h2 className="page-title">Residential Services</h2>
-              
+
               <ul className="services-list">
                 <li>Additions</li>
                 <li>New Construction</li>
                 <li>Renovations</li>
                 <li>General Contracting Services</li>
               </ul>
-              
+
               <p>
-                Whether you want to build a new home, add another level to an 
-                existing home, maximize existing living space, renovate a bathroom, kitchen, home 
-                office, entertainment area or home theater area, we are able to guide you 
-                through each phase of the project in a professional manner allowing you to enjoy the 
+                Whether you want to build a new home, add another level to an
+                existing home, maximize existing living space, renovate a bathroom, kitchen, home
+                office, entertainment area or home theater area, we are able to guide you
+                through each phase of the project in a professional manner allowing you to enjoy the
                 project rather than dread it.
               </p>
-              
+
               <p>
-                Larena Construction will secure any necessary permits, schedule and meet 
-                with inspectors, assist in project development, obtain quality materials, 
-                oversee and coordinate daily scheduling of our employees, as well as other tradesmen, 
-                to guarantee that work is completed as scheduled and within budget. Lastly, we 
-                provide a final "walk through" to ensure full customer satisfaction and a one 
+                Larena Construction will secure any necessary permits, schedule and meet
+                with inspectors, assist in project development, obtain quality materials,
+                oversee and coordinate daily scheduling of our employees, as well as other tradesmen,
+                to guarantee that work is completed as scheduled and within budget. Lastly, we
+                provide a final "walk through" to ensure full customer satisfaction and a one
                 year warranty in addition to any manufacturer warranties that may exist.
               </p>
-              
+
               <p>
-                Our skilled carpenters bring our client's needs and visions from the 
+                Our skilled carpenters bring our client's needs and visions from the
                 concept phase to reality.
               </p>
             </div>
@@ -217,44 +217,44 @@ function App() {
           <div className="container">
             <div className="content-text">
               <h2 className="page-title">Commercial Services</h2>
-              
+
               <div className="service-highlight">
                 <h3>Service!</h3>
                 <p>
-                  Our Vision is to offer the best products and services to our customers. To 
-                  always exceed customer expectations resulting in customer delight. Our mission is to 
+                  Our Vision is to offer the best products and services to our customers. To
+                  always exceed customer expectations resulting in customer delight. Our mission is to
                   provide highest possible quality at the right price.
                 </p>
                 <p>
-                  Our commitment to offer nothing but the very best is reflected in our vision & 
-                  mission statements. We exist because of our customer and we are very grateful to 
-                  our customers who have made us what we are today. We now strive to take our 
-                  organization to the next level so that we can serve our customers even better and 
+                  Our commitment to offer nothing but the very best is reflected in our vision &
+                  mission statements. We exist because of our customer and we are very grateful to
+                  our customers who have made us what we are today. We now strive to take our
+                  organization to the next level so that we can serve our customers even better and
                   continue to keep them fully satisfied.
                 </p>
               </div>
-              
+
               <ul className="services-list">
                 <li>Project Management</li>
                 <li>Additions</li>
                 <li>Renovations</li>
                 <li>New Construction</li>
               </ul>
-              
+
               <p>
-                Our Project Managers efficiently manage and carry out every phase of a project 
-                whether a client is erecting a new structure, adding footage or maximizing 
-                existing space. Larena Construction will secure any necessary permits and 
-                inspections, assist in project development, oversee and coordinate daily scheduling of our 
-                employees as well as any other tradesman to guarantee that work is completed as 
-                scheduled and within budget and finally provide a final walk through to ensure 
+                Our Project Managers efficiently manage and carry out every phase of a project
+                whether a client is erecting a new structure, adding footage or maximizing
+                existing space. Larena Construction will secure any necessary permits and
+                inspections, assist in project development, oversee and coordinate daily scheduling of our
+                employees as well as any other tradesman to guarantee that work is completed as
+                scheduled and within budget and finally provide a final walk through to ensure
                 full customer satisfaction.
               </p>
-              
+
               <p>
-                Our Project Management services include reviewing site plans and 
-                architectural drawings, obtaining permits and inspections, quality materials at 
-                the best price, organizing the schedules of all contractors and tradesman 
+                Our Project Management services include reviewing site plans and
+                architectural drawings, obtaining permits and inspections, quality materials at
+                the best price, organizing the schedules of all contractors and tradesman
                 involved in the project while remaining within the set budget and time guidelines.
               </p>
             </div>
@@ -267,12 +267,12 @@ function App() {
           <div className="container">
             <div className="content-text">
               <h2 className="page-title">Cabinetry</h2>
-              
+
               <p>
-                In addition to our custom cabinetry which is designed and constructed in our 
+                In addition to our custom cabinetry which is designed and constructed in our
                 Livingston, New Jersey shop, to fit our clients specific needs, we also offer the following semi-custom cabinetry lines:
               </p>
-              
+
               <div className="cabinet-brands">
                 <div className="brand-item">
                   <p><strong>Diamond Cabinets</strong></p>
@@ -314,7 +314,7 @@ function App() {
             <div className="content-text">
               <h2 className="page-title">Site Map</h2>
               <p>Browse all sections of our website:</p>
-              
+
               <div className="sitemap-grid">
                 <div className="sitemap-item">
                   <h3>
@@ -324,7 +324,7 @@ function App() {
                   </h3>
                   <p>Main page with company overview, mission, and BBB accreditation</p>
                 </div>
-                
+
                 <div className="sitemap-item">
                   <h3>
                     <a href="#contact" onClick={(e) => { e.preventDefault(); handleNavClick('contact'); }}>
@@ -333,7 +333,7 @@ function App() {
                   </h3>
                   <p>Get in touch - phone, fax, email, and physical address</p>
                 </div>
-                
+
                 <div className="sitemap-item">
                   <h3>
                     <a href="#residential" onClick={(e) => { e.preventDefault(); handleNavClick('residential'); }}>
@@ -342,7 +342,7 @@ function App() {
                   </h3>
                   <p>Residential services including additions, renovations, and new construction</p>
                 </div>
-                
+
                 <div className="sitemap-item">
                   <h3>
                     <a href="#commercial" onClick={(e) => { e.preventDefault(); handleNavClick('commercial'); }}>
@@ -351,7 +351,7 @@ function App() {
                   </h3>
                   <p>Commercial services and project management solutions</p>
                 </div>
-                
+
                 <div className="sitemap-item">
                   <h3>
                     <a href="#cabinetry" onClick={(e) => { e.preventDefault(); handleNavClick('cabinetry'); }}>
@@ -360,7 +360,7 @@ function App() {
                   </h3>
                   <p>Custom and semi-custom cabinetry options from our Livingston shop</p>
                 </div>
-                
+
                 <div className="sitemap-item">
                   <h3>
                     <a href="#residential-photos" onClick={(e) => { e.preventDefault(); handleNavClick('residential-photos'); }}>
@@ -369,7 +369,7 @@ function App() {
                   </h3>
                   <p>Gallery of our residential construction projects</p>
                 </div>
-                
+
                 <div className="sitemap-item">
                   <h3>
                     <a href="#commercial-photos" onClick={(e) => { e.preventDefault(); handleNavClick('commercial-photos'); }}>
@@ -389,8 +389,8 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <p>
-              <a 
-                href="#sitemap" 
+              <a
+                href="#sitemap"
                 onClick={(e) => { e.preventDefault(); handleNavClick('sitemap'); }}
               >
                 Site Map
