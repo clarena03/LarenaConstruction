@@ -17,8 +17,9 @@ function App() {
         <div className="container">
           <div className="logo-section">
             <div className="logo-placeholder">
-              {/* Logo will go here */}
-              <div className="logo-box">LOGO</div>
+              <div className="logo-box">
+                <img src="/LC Logo Small.jpg" alt="Larena Construction Logo" />
+              </div>
             </div>
             <div className="company-info">
               <h1>Larena Construction, LLC</h1>
@@ -59,7 +60,8 @@ function App() {
           >
             Commercial
           </a>
-          <a
+          {/* Commented out for now - coming soon */}
+          {/* <a
             href="#cabinetry"
             className={activeTab === 'cabinetry' ? 'active' : ''}
             onClick={(e) => { e.preventDefault(); handleNavClick('cabinetry'); }}
@@ -79,7 +81,7 @@ function App() {
             onClick={(e) => { e.preventDefault(); handleNavClick('commercial-photos'); }}
           >
             Commercial Photos
-          </a>
+          </a> */}
         </div>
       </nav>
 
@@ -262,7 +264,8 @@ function App() {
         </section>
       )}
 
-      {activeTab === 'cabinetry' && (
+      {/* Cabinetry and Photo pages commented out - coming soon */}
+      {/* {activeTab === 'cabinetry' && (
         <section className="content fade-in">
           <div className="container">
             <div className="content-text">
@@ -306,7 +309,7 @@ function App() {
             </div>
           </div>
         </section>
-      )}
+      )*/}
 
       {activeTab === 'sitemap' && (
         <section className="content fade-in">
@@ -352,7 +355,8 @@ function App() {
                   <p>Commercial services and project management solutions</p>
                 </div>
 
-                <div className="sitemap-item">
+                {/* Commented out - coming soon */}
+                {/* <div className="sitemap-item">
                   <h3>
                     <a href="#cabinetry" onClick={(e) => { e.preventDefault(); handleNavClick('cabinetry'); }}>
                       Cabinetry
@@ -377,7 +381,7 @@ function App() {
                     </a>
                   </h3>
                   <p>Gallery of our commercial construction projects</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

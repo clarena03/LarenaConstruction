@@ -1,14 +1,14 @@
 :root {
-  /* Earthy color palette with maroon primary */
-  --color-maroon: #7c2d3e;
-  --color-maroon-dark: #5a1f2d;
-  --color-maroon-light: #9d4a5a;
-  --color-tan: #d4b896;
-  --color-sand: #e8dcc4;
-  --color-earth: #8b7355;
-  --color-stone: #696158;
-  --color-charcoal: #3a3633;
-  --color-cream: #f5f1e8;
+  /* Modern blueprint aesthetic - black, white, steel blue */
+  --color-maroon: #0066cc;
+  --color-maroon-dark: #003d99;
+  --color-maroon-light: #4d94ff;
+  --color-tan: #e8e8e8;
+  --color-sand: #f5f5f5;
+  --color-earth: #555555;
+  --color-stone: #666666;
+  --color-charcoal: #1a1a1a;
+  --color-cream: #fafafa;
   --color-white: #ffffff;
   
   font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -16,7 +16,7 @@
   font-weight: 400;
   
   color: var(--color-charcoal);
-  background-color: var(--color-cream);
+  background-color: #ffffff;
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,7 +53,7 @@ a:hover {
 }
 
 button {
-  border-radius: 4px;
+  border-radius: 2px;
   border: none;
   padding: 0.875rem 2rem;
   font-size: 1rem;
